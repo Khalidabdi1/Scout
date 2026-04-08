@@ -17,7 +17,7 @@ For normal Claude Code users, this repo can now be added as a marketplace direct
 
 ```text
 /plugin marketplace add Khalidabdi1/Scout
-/plugin install design-md@scout-plugins
+/plugin install design-md@scout
 /reload-plugins
 ```
 
@@ -39,7 +39,7 @@ If you prefer the UI instead of direct commands:
 1. Run `/plugin marketplace add Khalidabdi1/Scout`
 2. Run `/plugin`
 3. Open the `Discover` tab
-4. Install `design-md` from the `scout-plugins` marketplace
+4. Install `design-md` from the `scout` marketplace
 5. Run `/reload-plugins`
 
 ## Local development

@@ -1,11 +1,11 @@
 {
-  "name": "scout-plugins",
+  "name": "scout",
   "owner": {
     "name": "Khalid Abdi",
-    "email": "xamza2009@gmail.com"
+    "email": "khalidstudentxv@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code plugins published from the Scout repository.",
+    "description": "Claude Code plugins published from the Scout marketplace.",
     "version": "1.0.0"
   },
   "plugins": [
