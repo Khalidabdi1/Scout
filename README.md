@@ -13,7 +13,9 @@ The links in the request point to Claude Code plugin docs and Stitch `DESIGN.md`
 
 ## Install in Claude Code
 
-For normal Claude Code users, this repo can now be added as a marketplace directly from GitHub:
+This plugin is not currently in Anthropic's official Claude Code marketplace (`claude-plugins-official`).
+
+Install it by adding this GitHub repository as a custom marketplace first:
 
 ```text
 /plugin marketplace add Khalidabdi1/Scout
@@ -34,7 +36,7 @@ Optional output path examples:
 /design-md:generate docs/design.md
 ```
 
-If you prefer the UI instead of direct commands:
+If you prefer the UI, add the GitHub marketplace first and then install from the Discover tab:
 
 1. Run `/plugin marketplace add Khalidabdi1/Scout`
 2. Run `/plugin`
@@ -88,6 +90,7 @@ tests/test_scan_project.py
 
 - Stitch examples and community mirrors often use `DESIGN.md` in uppercase. This plugin defaults to `design.md` because that is what was requested, but you can pass `DESIGN.md` as the output path if you prefer.
 - The scanner uses only the Python standard library, so there are no runtime dependencies to install.
+- This plugin is distributed through this GitHub repository's custom marketplace, not Anthropic's official hosted marketplace.
 - Privacy details are documented in `PRIVACY.md`.
 
 ## Validate locally
