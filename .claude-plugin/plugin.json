@@ -1,0 +1,19 @@
+{
+  "name": "design-md",
+  "version": "1.0.0",
+  "description": "Claude Code plugin that scans a project and creates a Stitch-style design.md file.",
+  "author": {
+    "name": "Khalid Abdi",
+    "url": "https://github.com/Khalidabdi1"
+  },
+  "homepage": "https://github.com/Khalidabdi1/Scout",
+  "repository": "https://github.com/Khalidabdi1/Scout",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "design-md",
+    "stitch",
+    "design-system",
+    "documentation"
+  ]
+}
