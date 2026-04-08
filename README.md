@@ -11,7 +11,38 @@ The links in the request point to Claude Code plugin docs and Stitch `DESIGN.md`
 - Guides Claude to turn that evidence into a semantic design system document for Stitch-style prompting.
 - Writes `design.md` by default, or any custom Markdown path you pass to the skill.
 
-## Install and run
+## Install in Claude Code
+
+For normal Claude Code users, this repo can now be added as a marketplace directly from GitHub:
+
+```text
+/plugin marketplace add Khalidabdi1/Scout
+/plugin install design-md@scout-plugins
+/reload-plugins
+```
+
+After install, use the plugin inside any project with:
+
+```text
+/design-md:generate
+```
+
+Optional output path examples:
+
+```text
+/design-md:generate DESIGN.md
+/design-md:generate docs/design.md
+```
+
+If you prefer the UI instead of direct commands:
+
+1. Run `/plugin marketplace add Khalidabdi1/Scout`
+2. Run `/plugin`
+3. Open the `Discover` tab
+4. Install `design-md` from the `scout-plugins` marketplace
+5. Run `/reload-plugins`
+
+## Local development
 
 For local development and testing:
 
@@ -23,13 +54,6 @@ Then, inside the project you want to document, run:
 
 ```text
 /design-md:generate
-```
-
-Optional output path examples:
-
-```text
-/design-md:generate DESIGN.md
-/design-md:generate docs/design.md
 ```
 
 ## Skill behavior
@@ -51,6 +75,7 @@ The generated document follows the core Stitch guidance:
 
 ```text
 .claude-plugin/plugin.json
+.claude-plugin/marketplace.json
 skills/generate/SKILL.md
 skills/generate/reference.md
 skills/generate/template.md

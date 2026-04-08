@@ -1,0 +1,38 @@
+{
+  "name": "scout-plugins",
+  "owner": {
+    "name": "Khalid Abdi",
+    "email": "xamza2009@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins published from the Scout repository.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "design-md",
+      "source": "./",
+      "description": "Scan a project and create a Stitch-style design.md file.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Khalid Abdi"
+      },
+      "homepage": "https://github.com/Khalidabdi1/Scout",
+      "repository": "https://github.com/Khalidabdi1/Scout",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "design-md",
+        "stitch",
+        "design-system",
+        "documentation"
+      ],
+      "category": "Development workflows",
+      "tags": [
+        "docs",
+        "design",
+        "frontend"
+      ]
+    }
+  ]
+}
