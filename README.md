@@ -76,6 +76,7 @@ The generated document follows the core Stitch guidance:
 ```text
 .claude-plugin/plugin.json
 .claude-plugin/marketplace.json
+PRIVACY.md
 skills/generate/SKILL.md
 skills/generate/reference.md
 skills/generate/template.md
@@ -87,6 +88,7 @@ tests/test_scan_project.py
 
 - Stitch examples and community mirrors often use `DESIGN.md` in uppercase. This plugin defaults to `design.md` because that is what was requested, but you can pass `DESIGN.md` as the output path if you prefer.
 - The scanner uses only the Python standard library, so there are no runtime dependencies to install.
+- Privacy details are documented in `PRIVACY.md`.
 
 ## Validate locally
 
